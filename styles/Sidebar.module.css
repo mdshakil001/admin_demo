@@ -1,0 +1,17 @@
+.sidebar{
+    margin: .5rem auto;
+    /* background-color: aqua; */
+}
+.sidebar ul li{
+    list-style: none;
+    /* background-color: antiquewhite; */
+    padding: 1rem;
+}
+.sidebar ul li:hover{
+    background-color: aqua;
+    transition: .5s;
+    color: rgb(182, 32, 32);
+}
+.sidebar ul li:visited{
+    background-color: blueviolet;
+}

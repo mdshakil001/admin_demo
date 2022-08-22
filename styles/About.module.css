@@ -1,0 +1,7 @@
+.allBox{
+    margin: 0rem 1rem;
+}
+.container{
+    min-height: 80vh;
+    overflow: hidden;
+}

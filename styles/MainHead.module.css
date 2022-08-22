@@ -1,0 +1,58 @@
+.container {
+    min-height: 80vh;
+    overflow: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.allBox {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.menuList {
+    width: 50%;
+    margin: 0rem 2rem 1rem 1rem;
+}
+
+@media screen and (min-width: 481px) and  (max-width: 768px) {
+    .container{
+        height: 100vh;
+        overflow: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .allBox{
+        width: 90%;
+        margin: 0rem 1rem;
+    }
+    .menuList{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+        height: 100vh;
+        overflow: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .allBox{
+        width: 90%;
+        margin: 0rem 1rem;
+    }
+    .menuList{
+        width: 90%;
+    }
+}
